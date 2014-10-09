@@ -382,4 +382,10 @@ Notifications may be delayed for these apps."</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
 </resources>
