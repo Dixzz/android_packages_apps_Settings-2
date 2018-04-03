@@ -376,4 +376,7 @@ Notifications may be delayed for these apps."</string>
     <!-- Translucent lockscreen notifications background -->
     <string name="translucent_lockscreen_notifications_bg_title">Translucent notifications background</string>
 
+    <!-- Wrath Maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
