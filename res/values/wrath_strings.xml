@@ -264,5 +264,9 @@ Notifications may be delayed for these apps."</string>
 	
 	<!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+	
+	<!-- WrathOS version preference -->
+    <string name="wrath_version">"WrathOS version"</string>
+    <string name="build_date">"Build date"</string>
 
 </resources>
