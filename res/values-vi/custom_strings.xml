@@ -92,4 +92,14 @@ Thông báo có thể bị chậm trễ đối với những ứng dụng này."
     <string name="auto_refresh_rate">Tự động</string>
     <!-- Battery light -->
     <string name="battery_light_title">Bật đèn khi sạc</string>
+
+    <!--Wrath Settings-->
+    <string name="wrath_settings_title"> Wrath Settings</string>
+    <string name="wrath_settings_summary">Hãy cùng cảm nhận cơn thịnh nộ!</string>
+
+	<!-- SELinux Status Info -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
 </resources>
