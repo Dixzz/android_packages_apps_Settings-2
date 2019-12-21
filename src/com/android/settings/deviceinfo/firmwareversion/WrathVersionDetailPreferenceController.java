@@ -42,7 +42,7 @@ public class WrathVersionDetailPreferenceController extends BasePreferenceContro
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_WRATH_VERSION_PROP = "ro.wrath.version";
-
+    private static final String KEY_EXUI_BUILDTYPE_PROP = "ro.wrath.build_type";
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
 
@@ -63,7 +63,7 @@ public class WrathVersionDetailPreferenceController extends BasePreferenceContro
     @Override
     public CharSequence getSummary() {
         return SystemProperties.get(KEY_WRATH_VERSION_PROP,
-                mContext.getString(R.string.unknown));
+                mContext.getString(R.string.unknown)) + "-" + SystemProperties.get(KEY_WRATH_BUILDTYPE_PROP, mContext.getString(R.string.unknown));a
     }
 
     @Override
