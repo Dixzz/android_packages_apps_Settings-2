@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020 WrathOS
+     Copyright (C) 2019 WrathOS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -12,16 +12,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <color name="homepage_wrath_background">#FF3366</color>
+    <color name="homepage_wrath_background">#FFC9CF</color>
 
     <!-- DashBoard Custom Colors -->
     <color name="wrath_dashboard_wireless">#B3E5FC</color>
     <color name="wrath_dashboard_devices_other">#90CAF9</color>
     <color name="wrath_dashboard_apps">#FFCDD2</color>
     <color name="wrath_dashboard_battery">#B2EBF2</color>
-    <color name="cherish_dashboard_display">#fffef7e0</color>
-    <color name="cherish_dashboard_sound">#c4fff1</color>
-    <color name="cherish_dashboard_storage">#ffe9d2fd</color
+    <color name="wrath_dashboard_display">#fffef7e0</color>
+    <color name="wrath_dashboard_sound">#c4fff1</color>
+    <color name="wrath_dashboard_storage">#ffe9d2fd</color>
     <color name="wrath_dashboard_security">#A7FFEB</color>
     <color name="wrath_dashboard_accounts">#FCE4EC</color>
     <color name="wrath_dashboard_accessibility">#D1C4E9</color>
