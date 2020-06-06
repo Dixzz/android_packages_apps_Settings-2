@@ -110,7 +110,7 @@ Notifications may be delayed for these apps."</string>
     
     <!--Wrath Settings-->
     <string name="wrath_settings_title">Wrath Settings</string>
-    <string name="wrath_settings_summary">Let's Feel The Wrath!</string>
+    <string name="wrath_settings_summary">Lets Feel The Wrath!</string>
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Theming</string>
