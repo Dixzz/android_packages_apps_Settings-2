@@ -3344,6 +3344,29 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/wrath_settings_summary"/>
         </activity>
+
+        <activity android:name=".Settings$VenomActivity"
+                  android:label="@string/venom_settings_title"
+                  android:icon="@drawable/ic_homepage_venom">
+            <intent-filter android:priority="10">
+                <action android:name="com.viper.venom.VenomSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.viper.venom.VenomSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/venom_settings_summary"/>
+        </activity>
         <!-- Gaming mode -->
         <activity android:name=".Settings$GamingModeActivity"
             android:label="@string/gaming_mode_title"

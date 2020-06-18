@@ -22,6 +22,7 @@ LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../Wrath/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../Venom/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -33,9 +34,13 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.cardview_cardview \
     androidx.preference_preference \
     androidx.recyclerview_recyclerview \
+    androidx.viewpager_viewpager \
     com.google.android.material_material \
     setupcompat \
-    setupdesign
+    setupdesign \
+    androidx.fragment_fragment
+#    android-support-design
+
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common \
@@ -58,7 +63,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
-    packages/apps/Wrath/res
+    packages/apps/Wrath/res \
+    packages/apps/Venom/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -68,7 +74,10 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages com.wrath.settings
+#    --extra-packages android.support.design \
+    --extra-packages com.wrath.settings \
+    --extra-packages com.venom.settings
+
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled

@@ -150,6 +150,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.wrath.settings.WrathSettings;
 import com.wrath.settings.fragments.GamingMode;
+import com.viper.venom.VenomSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
@@ -288,7 +289,8 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-	        WrathSettings.class.getName(),
+	    WrathSettings.class.getName(),
+            VenomSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
             GamingMode.class.getName()
     };
@@ -333,5 +335,8 @@ public class SettingsGateway {
 	    //Wrath
 	    Settings.WrathSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+
+            Settings.VenomActivity.class.getName(),
+
     };
 }

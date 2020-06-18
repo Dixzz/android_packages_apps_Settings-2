@@ -72,3 +72,5 @@
 
 #Wrath
 -keep class com.wrath.settings.**
+-keep class com.viper.venom.**
+

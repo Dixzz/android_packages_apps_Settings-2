@@ -382,4 +382,8 @@ Notifications may be delayed for these apps."</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+
+    <string name="venom_settings_title">Venom</string>
+    <string name="venom_settings_summary">ROM features &amp; customization</string>
+
 </resources>
