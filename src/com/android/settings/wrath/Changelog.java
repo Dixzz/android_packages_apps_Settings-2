@@ -50,7 +50,7 @@ public class Changelog extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.WRATHSETTINGS;
+        return MetricsProto.MetricsEvent.WRATH_SETTINGS;
     }
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
