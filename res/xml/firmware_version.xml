@@ -25,7 +25,7 @@
      <!-- Wrath Logo -->
     <com.android.settingslib.widget.LayoutPreference
         android:key="wrath_header_about"
-        android:layout="@layout/wrath_header_about.xml"
+        android:layout="@layout/wrath_header_about"
         android:selectable="false"/>
 
     <!-- Wrath version -->
