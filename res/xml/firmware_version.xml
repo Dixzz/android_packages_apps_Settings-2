@@ -22,10 +22,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Wrath OS logo -->
+     <!-- Wrath Logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="wrath_logo"
-        android:layout="@layout/wrath_logo"
+        android:key="wrath_header_about"
+        android:layout="@layout/wrath_header_about.xml"
         android:selectable="false"/>
 
     <!-- Wrath version -->
